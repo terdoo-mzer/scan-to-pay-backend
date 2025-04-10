@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Bigi 750ml Bottle Water",
+      "barcode": "6154000082116",
+      "price": 400,
+      "quantity": 50,
+      "description": "Water bottle with a capacity of 750ml"
+    },
+    {
+      "name": "Coca-cola 60cl",
+      "barcode": "5449000293824",
+      "price": 700,
+      "quantity": 50,
+      "description": "Coca-cola soft drink in a 60cl bottle"
+    },
+    {
+      "name": "Frosty Bite Strawberry Ice Cream",
+      "barcode": "6036000022074",
+      "price": 5000,
+      "quantity": 50,
+      "description": "Frosty Bite Strawberry Ice Cream in a 1.5L tub"
+    },
+    {
+      "name": "Frosty Bite Chocolate Ice Cream",
+      "barcode": "6036000022081",
+      "price": 5000,
+      "quantity": 50,
+      "description": "Frosty Bite Chocolate Ice Cream in a 1.5L tub"
+    }
+
+  ]
