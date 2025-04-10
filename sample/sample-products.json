@@ -7,6 +7,13 @@
       "description": "Water bottle with a capacity of 750ml"
     },
     {
+      "name": "GO2 Oscar Body Deodorant",
+      "barcode": "0403456346799",
+      "price": 5000,
+      "quantity": 50,
+      "description": "GO2 Oscar Body Deodorant in a 250ml can"
+    },
+    {
       "name": "Coca-cola 60cl",
       "barcode": "5449000293824",
       "price": 700,

@@ -12,7 +12,7 @@ const Order = require('./models/Order');
 
 
 
-const allowedOrigins = ["http://localhost:5174", "https://646e-102-88-111-153.ngrok-free.app", "https://scan-to-pay.vercel.app"];
+const allowedOrigins = ["http://localhost:5174", "https://scan-to-pay.vercel.app"];
 app.use(cors(
   {
     origin: "*", // Adjust to match your frontend URL
@@ -64,9 +64,9 @@ app.get('/products/:barcode', async (req, res) => {
     console.log(req.params.barcode);
     const product = await Product.findOne({ barcode: req.params.barcode });
     if (!product) {
-      return res.status(404).json({ message: 'Product not found' });
+      return res.status(404).json({ status: 404, message: 'Product not found' });
     }
-    res.status(200).json(product);
+    res.status(200).json({status: 200, message: 'Product found', product});
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
