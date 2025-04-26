@@ -3,35 +3,63 @@
       "name": "Bigi 750ml Bottle Water",
       "barcode": "6154000082116",
       "price": 400,
-      "quantity": 50,
+      "quantity": 5,
       "description": "Water bottle with a capacity of 750ml"
+    },
+    {
+      "name": "Pepsi 60cl",
+      "barcode": "6151100150226",
+      "price": 600,
+      "quantity": 5,
+      "description": "Pepsi Cola Flavoured Carbonated Soft drink in 60cl"
+    },
+    {
+      "name": "5 Alive Pulpy Orange 85cl",
+      "barcode": "5449000228512",
+      "price": 1700,
+      "quantity": 5,
+      "description": "5 Alive Pulpy Orange drink in a 85cl bottle"
+    },
+    {
+      "name": "Viva Plus Gold Bar Soap",
+      "barcode": "0745110908487",
+      "price": 1000,
+      "quantity": 5,
+      "description": "Multipurpose Soap with weight 230g"
     },
     {
       "name": "GO2 Oscar Body Deodorant",
       "barcode": "0403456346799",
       "price": 5000,
-      "quantity": 50,
+      "quantity": 5,
       "description": "GO2 Oscar Body Deodorant in a 250ml can"
     },
     {
       "name": "Coca-cola 60cl",
       "barcode": "5449000293824",
       "price": 700,
-      "quantity": 50,
+      "quantity": 5,
       "description": "Coca-cola soft drink in a 60cl bottle"
+    },
+    {
+      "name": "Fanta 60cl",
+      "barcode": "5449000002938",
+      "price": 700,
+      "quantity": 5,
+      "description": "Fanta orange falvoured drink in a 60cl bottle"
     },
     {
       "name": "Frosty Bite Strawberry Ice Cream",
       "barcode": "6036000022074",
       "price": 5000,
-      "quantity": 50,
+      "quantity": 5,
       "description": "Frosty Bite Strawberry Ice Cream in a 1.5L tub"
     },
     {
       "name": "Frosty Bite Chocolate Ice Cream",
       "barcode": "6036000022081",
       "price": 5000,
-      "quantity": 50,
+      "quantity": 5,
       "description": "Frosty Bite Chocolate Ice Cream in a 1.5L tub"
     }
 

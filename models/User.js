@@ -2,10 +2,14 @@
 const mongoose = require('mongoose');
 
 const UserSchema = new mongoose.Schema({
-  deviceId: {
+  customerId: {
     type: String,
     required: true,
     trim: true
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now
   },
  
 });

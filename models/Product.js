@@ -23,7 +23,11 @@ const productSchema = new mongoose.Schema({
     min: 0,
     default: 0
   },
-  lastUpdated: {
+  createdAt: {
+    type: Date,
+    default: Date.now
+  },
+  UpdatedAt: {
     type: Date,
     default: Date.now
   },
