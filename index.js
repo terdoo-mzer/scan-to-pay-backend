@@ -366,10 +366,12 @@ app.get('/orders/:id/:orderId', async (req, res) => {
     return res.status(400).json({status: 400, message: 'Customer ID and order ID are required'});
   }
   const order = await Order.find({customerId: id, _id: orderId});
-  if (!order) {
-    return res.status(404).json({status: 404, message: 'Order not found'});
+  
+  if (!order || !order.length) {
+    console.log("The length is : ", order.length)
+    return res.status(404).json({status: 404, message: 'The user does not exist or order not found'});
+     
   } 
-
   res.status(200).json({status: 200, message: 'Order retrieved', order} )
 })
 
