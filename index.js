@@ -72,6 +72,7 @@ app.get('/products/:barcode', async (req, res) => {
   }
 });
 
+// Create an order here
 app.post('/orders', async (req, res) => {
   try {
 
@@ -157,7 +158,7 @@ app.post('/orders', async (req, res) => {
 
     // WHAT: Calculate tax and total for the order.
     // WHY: Needed for the Order document and payment gateway (total amount to charge).
-    const tax = subtotal * 0.05; // 5% tax, adjustable.
+    const tax = subtotal * 0.015; // 1.5% tax, adjustable.
     const total = subtotal + tax;
 
     function generateTransactionReference(length) {
